@@ -11,8 +11,8 @@ disqus_shortname:
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
 description: ASU Operations Management Review.
-author: AOR
-  name: AOR
+author: 
+  name: 
   email: aor@asu.edu  
   twitter: # twitter username without the @ symbol
 social:
