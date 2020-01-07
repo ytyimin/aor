@@ -1,9 +1,9 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
-baseurl:
+title: ASU Operations Management Review
+url: "https://"
+baseurl:aor
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
