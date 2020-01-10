@@ -4,7 +4,7 @@
     new_window: false
 - links:
   - name: Preview
-    link: /preview/
+    link: /web/viewer.html?file=https://ytyimin.github.io/aor/pdf/preview.pdf
     new_window: false
 - links:
   - name: Buy
