@@ -9,8 +9,6 @@ map:
   address: "W. P. Carey School of Business - Arizona State University, Business Administration, 300 E Lemon St, Tempe, AZ 85287"
   zoom: 13
 ---
-<div class="map" id="map"></div>
-
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
@@ -37,6 +35,9 @@ map:
 		<p><a href="mailto:aor@asu.edu">aor@asu.edu</a></p>
 	</div>
 </div>
+
+<div class="map" id="map"></div>
+
 
 <script type="text/javascript">
 	window.mapData = {{ page.map | jsonify }};
