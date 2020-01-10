@@ -5,11 +5,11 @@
 - links:
   - name: Preview
     link: /web/viewer.html?file=https://ytyimin.github.io/aor/pdf/preview.pdf
-    new_window: false
+    new_window: true
 - links:
   - name: Buy
     link: /buy/
-    new_window: false
+    new_window: true
 - links:
   - name: Contact
     link: /contact/
