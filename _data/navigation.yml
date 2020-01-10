@@ -3,7 +3,7 @@
   new_window: false
   highlight: false
 - name: Preview
-  link: /web/viewer.html?file=/pdf/preview.pdf
+  link: /web/viewer.html?file={{ site.baseurl }}/pdf/preview.pdf
   new_window: true
   highlight: false
 - name: Buy
