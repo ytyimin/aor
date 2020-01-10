@@ -3,12 +3,12 @@
   new_window: false
   highlight: false
 - name: Preview
-  link: /preview/
-  new_window: false
+  link: /web/viewer.html?file=/pdf/preview.pdf
+  new_window: true
   highlight: false
 - name: Buy
   link: /
-  new_window: false
+  new_window: true
   highlight: true
 - name: Contact
   link: /contact/
