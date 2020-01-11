@@ -13,7 +13,6 @@ map:
 <div class="contact-box">
 
 	<form action="https://formspree.io/yimin_wang@asu.edu" method = "post" class="contact-form">
-		<input type="hidden" name="_next" value="/contact-success.html" />
 
 		<input type="hidden" name="_to" value="aor@asu.edu" />
 		<input type="text" name="_gotcha" style="display: none;">
@@ -28,6 +27,9 @@ map:
 		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
 
 		<input type="submit" value="Send Message" />
+
+		<input type="hidden" name="_next" value="{{ site.url }}/{{ site.baseurl }}/contact-success.html" />
+		
 	</form>
 
 	<div class="contact-details">
