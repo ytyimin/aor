@@ -12,7 +12,7 @@ map:
 
 <div class="contact-box">
 	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
+		<input type="hidden" name="_to" value="aor@asu.edu" />
 		<input type="text" name="_gotcha" style="display: none;">
 
 		<label for="name">Full Name</label>
@@ -29,7 +29,7 @@ map:
 
 	<div class="contact-details">
 		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
+		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", " <br>" }}</a></address>
 
 		<h3 class="editable">Email</h3>
 		<p><a href="mailto:aor@asu.edu">aor@asu.edu</a></p>
