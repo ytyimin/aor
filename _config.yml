@@ -2,8 +2,8 @@
 # Site
 
 title: ASU Operations Management Review
-url: "https://ytyimin.github.io"
-baseurl: "/aor"
+url: "https://www.asuomreview.com"
+baseurl: ""
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -18,7 +18,7 @@ author:
 social:
   name: AOR
   links:
-    - https://ytyimin.github.io/aor
+    - https://www.asuomreview.com
 
 # -----
 # Build
