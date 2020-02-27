@@ -119,6 +119,26 @@ blockquote:before {
 	vertical-align: -0.4em;
 }
 
+blocknotice {
+	padding: 5px 5px;
+	margin: 0;
+
+	p {
+		font-size: 1.0em;
+		display: inline;
+	}
+}
+
+blocknotice:before {
+	color: #ccc;
+	font-size: 1.2em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+
+
 .square-image {
 	width: 150px;
 	height: 150px;
