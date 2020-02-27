@@ -7,7 +7,7 @@
   new_window: true
   highlight: false
 - name: Buy
-  link: /
+  link: https://www.amazon.com/dp/B0851MB85Q
   new_window: true
   highlight: true
 - name: Contact
