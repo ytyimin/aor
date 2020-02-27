@@ -8,7 +8,7 @@
     new_window: true
 - links:
   - name: Buy
-    link: /buy/
+    link: https://www.amazon.com/dp/B0851MB85Q
     new_window: true
 - links:
   - name: Contact
