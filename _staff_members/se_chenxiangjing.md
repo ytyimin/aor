@@ -1,5 +1,5 @@
 ---
-name: Xiangjing Chen
+name: Olivia Chen
 position: Editor
 image_path: https://ytyimin.github.io/aor/images/xChen.png
 twitter: https://isearch.asu.edu/profile/3133917
