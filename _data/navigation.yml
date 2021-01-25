@@ -6,6 +6,10 @@
   link: /web/viewer.html?file=https://asuomreview.com/pdf/preview.pdf
   new_window: true
   highlight: false
+- name: Editors
+  link: /editor/
+  new_window: false
+  highlight: false
 - name: Buy
   link: https://www.amazon.com/dp/B0858V3TDR
   new_window: true
