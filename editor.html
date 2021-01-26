@@ -22,7 +22,7 @@ description: ASU OM Review (AOR) is a non-profit project prepared by a small gro
 			<h2>Previous Editors</h2>
 			{% for person in site.staff_members_previous %}
 			<p>
-			<div class="name"> <img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}" width="50" height="50"> <a target="_self" href="{{ person.twitter }}">{{ person.name }}</a>, {{ person.position }}. "{{ person.blurb }}"</div>
+			<img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}" width="50" height="50"> <a target="_self" href="{{ person.twitter }}">{{ person.name }}</a>, {{ person.position }}. "{{ person.blurb }}"
 			</p>
 			{% endfor %}
 			</div>
