@@ -11,9 +11,9 @@
   new_window: false
   highlight: false
 - name: Buy
-  link: https://www.amazon.com/dp/B0858V3TDR
-  new_window: true
-  highlight: true
+  link: /buy/
+  new_window: false
+  highlight: false
 - name: Contact
   link: /contact/
   new_window: false
