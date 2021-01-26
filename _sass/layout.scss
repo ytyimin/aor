@@ -162,6 +162,7 @@ blocknotice:before {
 .small-image {
 	width: 50px;
 	height: 50px;
+	float:left;
 	overflow: hidden;
 	margin: 15px auto 0 auto;
 	position: relative;
@@ -169,7 +170,7 @@ blocknotice:before {
 	display:inline;
 
 	img {
-		position: absolute;
+		position: relative;
 		left: -1000%;
 		right: -1000%;
 		top: -1000%;
