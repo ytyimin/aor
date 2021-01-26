@@ -56,6 +56,16 @@ defaults:
   -
     scope:
       path: ""
+      type: "staff_members_previous"
+    values:
+      _options:
+        image_path:
+          width: 600
+          height: 600
+
+  -
+    scope:
+      path: ""
     values:
       layout: "page"
   -
