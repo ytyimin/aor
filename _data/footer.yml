@@ -12,8 +12,8 @@
     new_window: false
 - links:
   - name: Buy
-    link: https://www.amazon.com/dp/B0851MB85Q
-    new_window: true
+    link: /buy/
+    new_window: false
 - links:
   - name: Contact
     link: /contact/
