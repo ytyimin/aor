@@ -180,13 +180,12 @@ blocknotice:before {
 }
 
 .buy-image {
-	width: 150px;
-	height: 150px;
-	float:left;
+	width: 300px;
+	height: 300px;
 	overflow: hidden;
 	margin: 30px auto 0 auto;
 	position: static;
-	border-radius: 150px;
+	<!--border-radius: 300px;-->
 
 	img {
 		position: static;
@@ -195,7 +194,7 @@ blocknotice:before {
 		top: -1000%;
 		bottom: -1000%;
 		margin: auto;
-		width: 150px;
+		width: 300px;
 	}
 }
 
