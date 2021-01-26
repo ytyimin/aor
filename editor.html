@@ -20,13 +20,11 @@ description: ASU OM Review (AOR) is a non-profit project prepared by a small gro
 		<div class="container flex">
 			<div class="text editable">
 			<h2>Previous Editors</h2>
-			<ul>
 			{% for person in site.staff_members_previous %}
-			<li>
+			<p>
 			<div class="name"><a target="_self" href="{{ person.twitter }}">{{ person.name }}</a>, {{ person.position }}. "{{ person.blurb }}"</div>
-			</li>
+			</p>
 			{% endfor %}
-			</ul>
 			</div>
 		</div>
 	</section>
