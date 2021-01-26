@@ -15,16 +15,25 @@ description: ASU OM Review (AOR) is a non-profit project prepared by a small gro
 	{% endfor %}
 </ul>
 
+
+
+
 <div class="content">
 	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Previous Editors</h2>
-				<p> Seongkyoon Jeong (Co-EIC), Arizona State University </p>
-				<p> Seth Washispak (Co-EIC), Arizona State University </p>
-				<p> Olivia Chen, Arizona State University </p>
-				<p> Ryan Hatton, Arizona State University </p>
-				<p> Chao Wu, Arizona State University </p>
+				<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members_previous/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>
+				<ul class="staff">
+				{% for person in site.staff_members_previous %}
+				<li>
+				<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>
+				<div class="name"><a target="_self" href="{{ person.twitter }}">{{ person.name }}</a></div>
+				<div class="position">{{ person.position }}</div>
+				<div class="blurb">{{ person.blurb }}</div>
+				</li>
+				{% endfor %}
+				</ul>
 			</div>
 		</div>
 	</section>
