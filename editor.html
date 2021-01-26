@@ -18,16 +18,12 @@ description: ASU OM Review (AOR) is a non-profit project prepared by a small gro
 <div class="content">
 	<section>
 		<div class="container flex">
-			<div class="text editable" style="text-align: center;>
+			<div>
 				<h2>Previous Editors</h2>
-				<!--<p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members_previous/" class="btn"><strong>&#9998;</strong> Manage Staff members</a></p>-->
 				<ul>
 				{% for person in site.staff_members_previous %}
 				<li>
-				<!--<div class="square-image"><img src="{% include relative-src.html src=person.image_path %}" alt="{{ person.name }}"/></div>-->
 				<div class="name"><a target="_self" href="{{ person.twitter }}">{{ person.name }}</a>, {{ person.position }} {{ person.blurb }}</div>
-				<!--<div class="position">{{ person.position }}</div>
-				<div class="blurb">{{ person.blurb }}</div>-->
 				</li>
 				{% endfor %}
 				</ul>
